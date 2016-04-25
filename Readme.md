@@ -34,5 +34,14 @@
 ![](https://res.cloudinary.com/boolron/image/upload/v1461575625/bgihsoba17lcdh7fhhaz.png)
 
 
+### install
+
+add this to Podfile
+
+```
+pod 'CustomSeperatorInsetTableView', '~> 0.0.2'
+```
+
+
 
 
