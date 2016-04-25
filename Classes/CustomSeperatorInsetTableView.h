@@ -10,8 +10,8 @@
 
 @interface CustomSeperatorInsetTableView : UITableView
 
-@property (nonatomic, assign) IBInspectable CGFloat mySeparatorInsetLeft;
-@property (nonatomic, assign) IBInspectable CGFloat mySeparatorInsetRight;
+@property (nonatomic, assign) IBInspectable CGFloat insetLeft;
+@property (nonatomic, assign) IBInspectable CGFloat insetRight;
 
 @property (nonatomic, assign) UIEdgeInsets mySeparatorInset;
 

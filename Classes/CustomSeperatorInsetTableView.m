@@ -11,14 +11,14 @@
 @implementation CustomSeperatorInsetTableView
 
 - (void)setMySeparatorInset:(UIEdgeInsets)mySeparatorInset{
-    self.mySeparatorInsetLeft = mySeparatorInset.left;
-    self.mySeparatorInsetRight = mySeparatorInset.right;
+    self.insetLeft = mySeparatorInset.left;
+    self.insetRight = mySeparatorInset.right;
 }
 
 - (void)layoutSubviews{
     [super layoutSubviews];
 
-    self.separatorInset = UIEdgeInsetsMake(0, self.mySeparatorInsetLeft, 0, self.mySeparatorInsetRight);
+    self.separatorInset = UIEdgeInsetsMake(0, self.insetLeft, 0, self.insetRight);
     if ([self respondsToSelector:@selector(setLayoutMargins:)]) {
         self.layoutMargins = self.separatorInset;
     }
