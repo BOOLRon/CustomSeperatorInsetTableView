@@ -29,9 +29,9 @@
 
 现在只需继承`CustomSeperatorInsetTableView`，代码配置`mySeparatorInset`为你希望的值，默认值`UIEdgeInsetsZero`，
 
-另外你也可以在`IB`里面修改UITableView的Class改为`CustomSeperatorInsetTableView`，右侧填入你希望的`separatorLeft`和`separatorRight`值，不填默认为0
+另外你也可以在`IB`里面修改UITableView的Class改为`CustomSeperatorInsetTableView`，右侧填入你希望的`insetLeft`和`insetRight`值，不填默认为0
 
-![](https://res.cloudinary.com/boolron/image/upload/v1461575122/yyf2mp2p5racjg9sjyva.png)
+![](https://res.cloudinary.com/boolron/image/upload/v1461575625/bgihsoba17lcdh7fhhaz.png)
 
 
 
